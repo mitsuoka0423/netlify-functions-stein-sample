@@ -4,7 +4,7 @@ const store = new SteinStore(process.env.STEIN_API_URL);
 
 exports.handler = async () => {
   try {
-    const data = store.read("Sheet1", { limit: 1, offset: 2 });
+    const data = await store.read("Sheet1", { limit: 1, offset: 2 });
     console.log(data);
 
     return {
