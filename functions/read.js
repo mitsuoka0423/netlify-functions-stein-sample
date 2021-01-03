@@ -1,4 +1,5 @@
 const SteinStore = require("stein-js-client");
+console.log("process.env.STEIN_API_URL", process.env.STEIN_API_URL);
 const store = new SteinStore(process.env.STEIN_API_URL);
 
 exports.handler = async () => {
