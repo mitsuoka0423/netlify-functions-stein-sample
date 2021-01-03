@@ -1,0 +1,23 @@
+{
+  "name": "netlify-functions-stein",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tmitsuoka0423/netlify-functions-stein.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tmitsuoka0423/netlify-functions-stein/issues"
+  },
+  "homepage": "https://github.com/tmitsuoka0423/netlify-functions-stein#readme",
+  "dependencies": {
+    "stein-js-client": "0.0.2"
+  }
+}
